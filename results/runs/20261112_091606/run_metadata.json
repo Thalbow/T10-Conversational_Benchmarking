@@ -1,0 +1,31 @@
+{
+  "run_id": "20261112_091606",
+  "request": "Run TCP on dumbbell while varying queue depth from 10 to 34 packets in steps of 1, with 20 ms delay, 1 trial per queue depth for 2 seconds",
+  "config": {
+    "protocol": "TCP",
+    "topology": "dumbbell",
+    "delay_ms": 20,
+    "queue_depth_start": 10,
+    "queue_depth_end": 34,
+    "queue_depth_step": 1,
+    "trials": 1,
+    "duration": 2,
+    "bandwidth_mbps": 10,
+    "udp_rate_mbps": 8
+  },
+  "intent_parser": "Gemini AI",
+  "api_telemetry": {
+    "model": "gemini-3.1-flash-lite",
+    "prompt_tokens": 148,
+    "completion_tokens": 108
+  },
+  "started_at": "2026-11-12T09:16:06.489970+07:00",
+  "max_retries": 1,
+  "finished_at": "2026-11-12T09:17:59.005778+07:00",
+  "runtime_seconds": 112.516,
+  "recovery": [],
+  "reasoning_iterations": 1,
+  "task_completed": true,
+  "successful_tests": 25,
+  "total_tests": 25
+}

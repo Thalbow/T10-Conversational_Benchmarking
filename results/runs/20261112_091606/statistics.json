@@ -1,0 +1,265 @@
+{
+  "total_tasks": 25,
+  "successful_tasks": 25,
+  "task_completion_percent": 100.0,
+  "tool_calls": 25,
+  "successful_tool_calls": 25,
+  "tool_success_rate_percent": 100.0,
+  "failed_tasks": 0,
+  "error_recovery_rate_percent": 0.0,
+  "mean_execution_seconds": 3.439376,
+  "outlier_count": 0,
+  "outliers": [],
+  "queue_depth_summary": [
+    {
+      "queue_depth": 10,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 4.287732743654738,
+      "median_throughput_mbps": 4.287732743654738,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 4.287732743654738,
+      "max_throughput_mbps": 4.287732743654738,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 11,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 6.57347211184581,
+      "median_throughput_mbps": 6.57347211184581,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 6.57347211184581,
+      "max_throughput_mbps": 6.57347211184581,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 12,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 5.120200007812805,
+      "median_throughput_mbps": 5.120200007812805,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 5.120200007812805,
+      "max_throughput_mbps": 5.120200007812805,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 13,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.097877984596998,
+      "median_throughput_mbps": 8.097877984596998,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.097877984596998,
+      "max_throughput_mbps": 8.097877984596998,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 14,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 7.991479421621921,
+      "median_throughput_mbps": 7.991479421621921,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 7.991479421621921,
+      "max_throughput_mbps": 7.991479421621921,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 15,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 7.441687937792897,
+      "median_throughput_mbps": 7.441687937792897,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 7.441687937792897,
+      "max_throughput_mbps": 7.441687937792897,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 16,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 7.871767429966946,
+      "median_throughput_mbps": 7.871767429966946,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 7.871767429966946,
+      "max_throughput_mbps": 7.871767429966946,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 17,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 7.952911708505386,
+      "median_throughput_mbps": 7.952911708505386,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 7.952911708505386,
+      "max_throughput_mbps": 7.952911708505386,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 18,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.758513095749647,
+      "median_throughput_mbps": 8.758513095749647,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.758513095749647,
+      "max_throughput_mbps": 8.758513095749647,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 19,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.920002268473883,
+      "median_throughput_mbps": 8.920002268473883,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.920002268473883,
+      "max_throughput_mbps": 8.920002268473883,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 20,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.985312627940854,
+      "median_throughput_mbps": 8.985312627940854,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.985312627940854,
+      "max_throughput_mbps": 8.985312627940854,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 21,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.730094371432969,
+      "median_throughput_mbps": 8.730094371432969,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.730094371432969,
+      "max_throughput_mbps": 8.730094371432969,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 22,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 9.162056602289837,
+      "median_throughput_mbps": 9.162056602289837,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 9.162056602289837,
+      "max_throughput_mbps": 9.162056602289837,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 23,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.993374460439025,
+      "median_throughput_mbps": 8.993374460439025,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.993374460439025,
+      "max_throughput_mbps": 8.993374460439025,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 24,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 9.166862394838603,
+      "median_throughput_mbps": 9.166862394838603,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 9.166862394838603,
+      "max_throughput_mbps": 9.166862394838603,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 25,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 9.15402261834668,
+      "median_throughput_mbps": 9.15402261834668,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 9.15402261834668,
+      "max_throughput_mbps": 9.15402261834668,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 26,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.989750626683996,
+      "median_throughput_mbps": 8.989750626683996,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.989750626683996,
+      "max_throughput_mbps": 8.989750626683996,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 27,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.85016577911966,
+      "median_throughput_mbps": 8.85016577911966,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.85016577911966,
+      "max_throughput_mbps": 8.85016577911966,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 28,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.996495181768655,
+      "median_throughput_mbps": 8.996495181768655,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.996495181768655,
+      "max_throughput_mbps": 8.996495181768655,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 29,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 0.04179105882279127,
+      "median_throughput_mbps": 0.04179105882279127,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 0.04179105882279127,
+      "max_throughput_mbps": 0.04179105882279127,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 30,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 9.16228342913398,
+      "median_throughput_mbps": 9.16228342913398,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 9.16228342913398,
+      "max_throughput_mbps": 9.16228342913398,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 31,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.9856976229356,
+      "median_throughput_mbps": 8.9856976229356,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.9856976229356,
+      "max_throughput_mbps": 8.9856976229356,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 32,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 9.169333999863001,
+      "median_throughput_mbps": 9.169333999863001,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 9.169333999863001,
+      "max_throughput_mbps": 9.169333999863001,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 33,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.987721527968583,
+      "median_throughput_mbps": 8.987721527968583,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.987721527968583,
+      "max_throughput_mbps": 8.987721527968583,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 34,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.867533639028789,
+      "median_throughput_mbps": 8.867533639028789,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.867533639028789,
+      "max_throughput_mbps": 8.867533639028789,
+      "mean_packet_loss_percent": 0.0
+    }
+  ]
+}

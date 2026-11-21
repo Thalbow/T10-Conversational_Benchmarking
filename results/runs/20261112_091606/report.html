@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><title>T10 Benchmark Report</title>
+<style>body{font:15px system-ui;max-width:960px;margin:36px auto;padding:0 20px;color:#202938}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccd3dd;padding:8px;text-align:left}th{background:#eff3f8}img{max-width:100%}.metric{display:inline-block;margin:8px 18px 8px 0}</style></head><body>
+<h1>T10 Conversational Benchmarking Report</h1><p><b>Request:</b> Run TCP on dumbbell while varying queue depth from 10 to 34 packets in steps of 1, with 20 ms delay, 1 trial per queue depth for 2 seconds</p>
+<h2>Run configuration</h2><pre>{&#x27;protocol&#x27;: &#x27;TCP&#x27;, &#x27;topology&#x27;: &#x27;dumbbell&#x27;, &#x27;delay_ms&#x27;: 20, &#x27;queue_depth_start&#x27;: 10, &#x27;queue_depth_end&#x27;: 34, &#x27;queue_depth_step&#x27;: 1, &#x27;trials&#x27;: 1, &#x27;duration&#x27;: 2, &#x27;bandwidth_mbps&#x27;: 10, &#x27;udp_rate_mbps&#x27;: 8}</pre><p>Intent parser: Gemini AI</p>
+<h2>Evaluation</h2><p><span class="metric">Task completion: 100.0%</span><span class="metric">Tool success: 100.0% (25/25)</span><span class="metric">Mean trial time: 3.44s</span><span class="metric">Error recovery rate: 0.0%</span><span class="metric">Agent iterations: 1</span></p>
+<p>OpenRouter tokens — prompt: 148, completion: 108.</p>
+<h2>Queue-depth statistics</h2><table><thead><tr><th>Queue depth</th><th>Successful trials</th><th>Mean throughput (Mbps)</th><th>Std dev (Mbps)</th><th>Mean packet loss</th></tr></thead><tbody><tr><td>10</td><td>1</td><td>4.2877</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>11</td><td>1</td><td>6.5735</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>12</td><td>1</td><td>5.1202</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>13</td><td>1</td><td>8.0979</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>14</td><td>1</td><td>7.9915</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>15</td><td>1</td><td>7.4417</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>16</td><td>1</td><td>7.8718</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>17</td><td>1</td><td>7.9529</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>18</td><td>1</td><td>8.7585</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>19</td><td>1</td><td>8.9200</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>20</td><td>1</td><td>8.9853</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>21</td><td>1</td><td>8.7301</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>22</td><td>1</td><td>9.1621</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>23</td><td>1</td><td>8.9934</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>24</td><td>1</td><td>9.1669</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>25</td><td>1</td><td>9.1540</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>26</td><td>1</td><td>8.9898</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>27</td><td>1</td><td>8.8502</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>28</td><td>1</td><td>8.9965</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>29</td><td>1</td><td>0.0418</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>30</td><td>1</td><td>9.1623</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>31</td><td>1</td><td>8.9857</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>32</td><td>1</td><td>9.1693</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>33</td><td>1</td><td>8.9877</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>34</td><td>1</td><td>8.8675</td><td>0.0000</td><td>0.0000%</td></tr></tbody></table>
+<p>Outliers flagged by the 1.5×IQR rule: 0. Failed tests: 0. Review recovery_trace.json and benchmark_results.csv for failed attempts and causes.</p>
+<h2>Figures</h2><figure><img src="throughput_vs_queue_depth.png"><figcaption>throughput_vs_queue_depth.png</figcaption></figure>
+<figure><img src="packet_loss_vs_queue_depth.png"><figcaption>packet_loss_vs_queue_depth.png</figcaption></figure><p>Runtime: 112.52s. Raw records: benchmark_results.csv. Recovery events: recovery_trace.json.</p></body></html>
