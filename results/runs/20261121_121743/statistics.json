@@ -1,0 +1,45 @@
+{
+  "total_tasks": 3,
+  "successful_tasks": 3,
+  "task_completion_percent": 100.0,
+  "tool_calls": 3,
+  "successful_tool_calls": 3,
+  "tool_success_rate_percent": 100.0,
+  "failed_tasks": 0,
+  "error_recovery_rate_percent": 0.0,
+  "mean_execution_seconds": 2.9313333333333333,
+  "outlier_count": 0,
+  "outliers": [],
+  "queue_depth_summary": [
+    {
+      "queue_depth": 10,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 4.959123890130617,
+      "median_throughput_mbps": 4.959123890130617,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 4.959123890130617,
+      "max_throughput_mbps": 4.959123890130617,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 20,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 8.724987685220935,
+      "median_throughput_mbps": 8.724987685220935,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 8.724987685220935,
+      "max_throughput_mbps": 8.724987685220935,
+      "mean_packet_loss_percent": 0.0
+    },
+    {
+      "queue_depth": 30,
+      "successful_trials": 1,
+      "mean_throughput_mbps": 7.592098201396852,
+      "median_throughput_mbps": 7.592098201396852,
+      "stddev_throughput_mbps": 0.0,
+      "min_throughput_mbps": 7.592098201396852,
+      "max_throughput_mbps": 7.592098201396852,
+      "mean_packet_loss_percent": 0.0
+    }
+  ]
+}

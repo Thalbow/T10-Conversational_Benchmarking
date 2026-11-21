@@ -1,0 +1,12 @@
+<!doctype html><html><head><meta charset="utf-8"><title>T10 Benchmark Report</title>
+<style>body{font:15px system-ui;max-width:960px;margin:36px auto;padding:0 20px;color:#202938}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ccd3dd;padding:8px;text-align:left}th{background:#eff3f8}img{max-width:100%}.metric{display:inline-block;margin:8px 18px 8px 0}</style></head><body>
+<h1>T10 Conversational Benchmarking Report</h1><p><b>Request:</b> Run TCP on dumbbell while varying queue depth from 10 to 30 packets in steps of 10, with 20 ms delay, 1 trial per queue depth for 2 seconds</p>
+<h2>Run configuration</h2><pre>{&#x27;protocol&#x27;: &#x27;TCP&#x27;, &#x27;topology&#x27;: &#x27;dumbbell&#x27;, &#x27;delay_ms&#x27;: 20, &#x27;queue_depth_start&#x27;: 10, &#x27;queue_depth_end&#x27;: 30, &#x27;queue_depth_step&#x27;: 10, &#x27;trials&#x27;: 1, &#x27;duration&#x27;: 2, &#x27;bandwidth_mbps&#x27;: 10, &#x27;udp_rate_mbps&#x27;: 8}</pre><p>Intent parser: Gemini AI</p>
+<h2>Evaluation</h2><p><span class="metric">Task completion: 100.0%</span><span class="metric">Tool success: 100.0% (3/3)</span><span class="metric">Mean trial time: 2.93s</span><span class="metric">Error recovery rate: 0.0%</span><span class="metric">Agent iterations: 1</span></p>
+<p>OpenRouter tokens — prompt: 149, completion: 109.</p>
+<h2>Queue-depth statistics</h2><table><thead><tr><th>Queue depth</th><th>Successful trials</th><th>Mean throughput (Mbps)</th><th>Std dev (Mbps)</th><th>Mean packet loss</th></tr></thead><tbody><tr><td>10</td><td>1</td><td>4.9591</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>20</td><td>1</td><td>8.7250</td><td>0.0000</td><td>0.0000%</td></tr>
+<tr><td>30</td><td>1</td><td>7.5921</td><td>0.0000</td><td>0.0000%</td></tr></tbody></table>
+<p>Outliers flagged by the 1.5×IQR rule: 0. Failed tests: 0. Review recovery_trace.json and benchmark_results.csv for failed attempts and causes.</p>
+<h2>Figures</h2><figure><img src="throughput_vs_queue_depth.png"><figcaption>throughput_vs_queue_depth.png</figcaption></figure>
+<figure><img src="packet_loss_vs_queue_depth.png"><figcaption>packet_loss_vs_queue_depth.png</figcaption></figure><p>Runtime: 13.36s. Raw records: benchmark_results.csv. Recovery events: recovery_trace.json.</p></body></html>
