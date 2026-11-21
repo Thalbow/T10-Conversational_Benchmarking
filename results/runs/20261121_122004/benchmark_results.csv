@@ -1,0 +1,4 @@
+protocol,topology,delay_ms,queue_depth,trial,attempt,throughput_mbps,packet_loss_percent,packets_received,packets_lost,runtime_seconds,status,error
+TCP,dumbbell,20,10,1,1,4.540154834687127,0.0,0,0,2.8737,success,
+TCP,dumbbell,20,20,1,1,6.11368234477853,0.0,0,0,2.8901,success,
+TCP,dumbbell,20,30,1,1,7.8524983091860925,0.0,0,0,2.8094,success,
