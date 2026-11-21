@@ -1,0 +1,8 @@
+{
+  "evaluation_type": "offline intent parsing; does not execute Mininet",
+  "tasks": 25,
+  "completed": 25,
+  "task_completion_percent": 100.0,
+  "tool_parameter_error_percent": 0.0,
+  "mean_execution_seconds": 4.099771997971402e-05
+}
