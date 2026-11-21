@@ -1,0 +1,18 @@
+h1 -> h4 
+h4 -> h1 
+*** Results: 0% dropped (2/2 received)
+h1 -> h4 
+h4 -> h1 
+*** Results: 0% dropped (2/2 received)
+/home/bowogantenk272007/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+[WARN] OpenRouter intent parsing failed; using local parser (ValueError).
+[INFO] Intent parser: Local Fallback
+[INFO] Validated config: {"protocol": "TCP", "topology": "star", "delay_ms": 25, "queue_depth_start": 30, "queue_depth_end": 30, "queue_depth_step": 10, "trials": 1, "duration": 2, "bandwidth_mbps": 10, "udp_rate_mbps": 8}
+[TEST 1/1] TCP star queue=30 trial=1 attempt=1
+[WARN] Attempt 1 failed: TimeoutExpired: Command '['mnexec', '-da', '18250', 'iperf3', '-c', '10.0.0.4', '-t', '2', '-J']' timed out after 17 seconds
+[TEST 1/1] TCP star queue=30 trial=1 attempt=2
+[OK] throughput=6.154 Mbps, loss=0.000%
+
+[INFO] Artifacts: results/runs/20261030_135445
+[INFO] Task completion: 1/1

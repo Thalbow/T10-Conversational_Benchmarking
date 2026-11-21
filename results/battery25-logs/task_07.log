@@ -1,0 +1,13 @@
+h1 -> h4 
+h4 -> h1 
+*** Results: 0% dropped (2/2 received)
+/home/bowogantenk272007/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+[WARN] OpenRouter intent parsing failed; using local parser (ValueError).
+[INFO] Intent parser: Local Fallback
+[INFO] Validated config: {"protocol": "UDP", "topology": "tree", "delay_ms": 25, "queue_depth_start": 70, "queue_depth_end": 70, "queue_depth_step": 10, "trials": 1, "duration": 2, "bandwidth_mbps": 10, "udp_rate_mbps": 8}
+[TEST 1/1] UDP tree queue=70 trial=1 attempt=1
+[OK] throughput=7.990 Mbps, loss=0.000%
+
+[INFO] Artifacts: results/runs/20261030_135142
+[INFO] Task completion: 1/1
