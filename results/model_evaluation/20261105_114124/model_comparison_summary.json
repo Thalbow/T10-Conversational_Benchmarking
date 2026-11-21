@@ -1,0 +1,117 @@
+{
+  "total_runs": 72,
+  "models": [
+    "gemini-3.5-flash-lite",
+    "gemini-3.6-flash",
+    "gemini-3.1-flash-lite"
+  ],
+  "prompt_styles": [
+    "concise",
+    "ambiguous",
+    "detailed"
+  ],
+  "passes_per_cell": 8,
+  "successful_runs": 72,
+  "api_failures": 0,
+  "by_model_style": [
+    {
+      "model": "gemini-3.1-flash-lite",
+      "style": "ambiguous",
+      "runs": 8,
+      "task_completion_percent": 100.0,
+      "parameter_error_percent": 0.0,
+      "api_failure_count": 0,
+      "mean_latency_seconds": 7.427925000000001,
+      "prompt_tokens": 1311,
+      "completion_tokens": 870
+    },
+    {
+      "model": "gemini-3.1-flash-lite",
+      "style": "concise",
+      "runs": 8,
+      "task_completion_percent": 100.0,
+      "parameter_error_percent": 0.0,
+      "api_failure_count": 0,
+      "mean_latency_seconds": 4.7715875,
+      "prompt_tokens": 1038,
+      "completion_tokens": 870
+    },
+    {
+      "model": "gemini-3.1-flash-lite",
+      "style": "detailed",
+      "runs": 8,
+      "task_completion_percent": 100.0,
+      "parameter_error_percent": 0.0,
+      "api_failure_count": 0,
+      "mean_latency_seconds": 5.547775,
+      "prompt_tokens": 1610,
+      "completion_tokens": 895
+    },
+    {
+      "model": "gemini-3.5-flash-lite",
+      "style": "ambiguous",
+      "runs": 8,
+      "task_completion_percent": 100.0,
+      "parameter_error_percent": 0.0,
+      "api_failure_count": 0,
+      "mean_latency_seconds": 2.5284750000000003,
+      "prompt_tokens": 1314,
+      "completion_tokens": 875
+    },
+    {
+      "model": "gemini-3.5-flash-lite",
+      "style": "concise",
+      "runs": 8,
+      "task_completion_percent": 100.0,
+      "parameter_error_percent": 0.0,
+      "api_failure_count": 0,
+      "mean_latency_seconds": 6.5895125,
+      "prompt_tokens": 1038,
+      "completion_tokens": 880
+    },
+    {
+      "model": "gemini-3.5-flash-lite",
+      "style": "detailed",
+      "runs": 8,
+      "task_completion_percent": 100.0,
+      "parameter_error_percent": 0.0,
+      "api_failure_count": 0,
+      "mean_latency_seconds": 1.9399125,
+      "prompt_tokens": 1598,
+      "completion_tokens": 870
+    },
+    {
+      "model": "gemini-3.6-flash",
+      "style": "ambiguous",
+      "runs": 8,
+      "task_completion_percent": 100.0,
+      "parameter_error_percent": 0.0,
+      "api_failure_count": 0,
+      "mean_latency_seconds": 6.611,
+      "prompt_tokens": 1311,
+      "completion_tokens": 900
+    },
+    {
+      "model": "gemini-3.6-flash",
+      "style": "concise",
+      "runs": 8,
+      "task_completion_percent": 100.0,
+      "parameter_error_percent": 0.0,
+      "api_failure_count": 0,
+      "mean_latency_seconds": 5.685287499999999,
+      "prompt_tokens": 1038,
+      "completion_tokens": 889
+    },
+    {
+      "model": "gemini-3.6-flash",
+      "style": "detailed",
+      "runs": 8,
+      "task_completion_percent": 100.0,
+      "parameter_error_percent": 0.0,
+      "api_failure_count": 0,
+      "mean_latency_seconds": 9.291625,
+      "prompt_tokens": 1634,
+      "completion_tokens": 910
+    }
+  ]
+}
